@@ -1,0 +1,27 @@
+{
+  "name": "final-project-epam-jstst",
+  "version": "1.0.0",
+  "description": "Final Project for EPAM Automation testing with Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Sebasg96/js-epam.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sebasg96/js-epam/issues"
+  },
+  "homepage": "https://github.com/Sebasg96/js-epam#readme",
+  "devDependencies": {
+    "@types/webdriverio": "^4.13.3",
+    "@wdio/allure-reporter": "^9.1.2",
+    "@wdio/cli": "^9.1.2",
+    "@wdio/local-runner": "^9.1.2",
+    "@wdio/mocha-framework": "^9.1.2"
+  }
+}
