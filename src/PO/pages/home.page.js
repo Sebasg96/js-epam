@@ -6,10 +6,6 @@ class HomePage {
         return $('//*[@class="app_logo"]');
     }
 
-    // Method to verify the login was successful by checking for the presence of the app logo (text content)
-    async verifyLogin() {
-        await expect(this.appLogo).toBeDisplayed();
-    }
 }
 
 module.exports = new HomePage();

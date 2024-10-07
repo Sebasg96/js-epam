@@ -23,5 +23,8 @@
     "@wdio/cli": "^9.1.2",
     "@wdio/local-runner": "^9.1.2",
     "@wdio/mocha-framework": "^9.1.2"
+  },
+  "dependencies": {
+    "@wdio/spec-reporter": "^9.1.2"
   }
 }
